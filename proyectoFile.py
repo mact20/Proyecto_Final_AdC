@@ -86,32 +86,6 @@ class Ui_MainWindow(object):
         self.acc.setText(_translate("Proyecto Final", "ACELEROMETRO"))
         self.giro.setText(_translate("Proyecto Final", "GIROSCOPIO"))
 
-    # def press_it(self, pressed):
-    #     if pressed == 0:
-    #         self.hum.setStyleSheet("background-color: rgb(255, 170, 0);")
-    #         self.temp.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.acc.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.giro.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.label.setText("Humedad: " + str(53) + "\n" + "Temperatura Ambiente: " + str(64))
-    #     elif pressed == 1:
-    #         self.temp.setStyleSheet("background-color: rgb(255, 170, 0);")
-    #         self.hum.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.acc.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.giro.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.label.setText("TEMPERATURA OBJETO")
-    #     elif pressed == 2:
-    #         self.acc.setStyleSheet("background-color: rgb(255, 170, 0);")
-    #         self.temp.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.hum.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.giro.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.label.setText("Acelerometro\nX: " + str("%.2f" % 0.3123232) + "\n" + "Y: " + str("%.2f" % -0.059231) + "\n" + "Z: " + str("%.2f" % 9.2612723))
-    #     elif pressed == 3:
-    #         self.giro.setStyleSheet("background-color: rgb(255, 170, 0);")
-    #         self.temp.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.hum.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.acc.setStyleSheet("background-color: rgb(170, 170, 255);")
-    #         self.label.setText("GIROSCOPIO")
-
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
